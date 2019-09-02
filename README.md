@@ -160,7 +160,7 @@ Este processo é configurado pelo arquivo chamado `.travis.yml`
 
 `app: \<nome da sua app\>`
 
-- Acessar o seu App no heroku, e na aba "Settings" e em "Config vars" configurar todas as variáveis ambientes disponíveis no .env.example para o seu ambiente de produção
+- Acessar o seu App no heroku, e na aba "Settings" e em "Config vars" configurar todas as variáveis ambientes disponíveis no .env.example para o seu ambiente de produção (com exceção da PORT, pois o heroku já possui uma variável ambiente da porta onde o servidor será instanciado)
 
 - Acessar o seu perfil e verificar a sua API KEY (ela será utilizada posteriormente no Travis-CI)
 
