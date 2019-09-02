@@ -149,6 +149,7 @@ Para maiores informações segue os artigos da documentação sobre Node.js no H
 Este processo é configurado pelo arquivo chamado `.travis.yml`
 
   
+- Fazer um fork deste repositório
 
 - Utilizar a sua conta no Heroku
 
