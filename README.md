@@ -5,7 +5,7 @@
 
   
 
-Exemplo de projeto utilizando Node.js. Editando o readme
+Exemplo de projeto utilizando Node.js.
 
   
 
