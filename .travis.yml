@@ -11,3 +11,5 @@ deploy:
   api-key: 
     api-key: $HEROKU_API_KEY
   app: projetonodees
+  on:
+    branch: master
