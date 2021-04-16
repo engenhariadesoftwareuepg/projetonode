@@ -5,7 +5,7 @@ const app = require('../index');
 chai.use(chaiHttp);
 chai.should();
 describe("Teste de request para contatos", () => {
-    describe("GET /contatos", () => {
+    describe("GET /contato", () => {
         // Testar a requisição para listagem de todos contatos
         it("deve listar todos contatos", (done) => {
             chai.request(app)
