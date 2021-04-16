@@ -51,7 +51,7 @@ Este exemplo é um aplicativo web que pode ser executado localmente assim como r
 É utilizado um banco de dados MongoDB. Você poderá utilizar para rodar localmente, uma instância do banco de dados também local [Instalar MongoDB](https://docs.mongodb.com/manual/administration/install-community/).
 
 Para uma instância em rede, tem um Database as a Service (DBaaS) MongoDB que possui um plano gratuito. 
-[mLab](https://mlab.com/)
+[MongoDB Cloud](https://www.mongodb.com/cloud)
 
 As configurações do banco de dados devem ser criadas em um arquivo chamado `.env`. O projeto tem um exemplo das requeridas configurações
 ```sh
