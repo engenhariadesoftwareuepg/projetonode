@@ -9,7 +9,7 @@ describe("Teste de request para contatos", () => {
         // Testar a requisição para listagem de todos contatos
         it("deve listar todos contatos", (done) => {
             chai.request(app)
-                .get('/contatos')
+                .get('/contato')
                 .end((err, res) => {
                     //o status para uma requisição com resposta correta é 200
                     res.should.have.status(200);
