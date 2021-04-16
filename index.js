@@ -7,8 +7,8 @@ const methodOverride = require('method-override');//Para utilizar os verbos HTTP
 const flash = require('express-flash-notification');//Para gerenciar notificações de uma página para outra
 const session = require('express-session');//Para armazenar informações na sessão do cliente
 const error = require('./middleware/error');//Middleware para mostrar páginas "amigáveis" quando ocorre um erro ou not found
-const dotenv = require('dotenv');//Utilizar as configurações de ambiente environment
-dotenv.config();//Carregar as configurações de ambiente (arquivo .env)
+//const dotenv = require('dotenv');//Utilizar as configurações de ambiente environment
+//dotenv.config();//Carregar as configurações de ambiente (arquivo .env)
 
 const PORT = process.env.PORT || 5000;//A porta é definida de acordo com a variável ambiente PORT ou por padrão a porta 5000
 
