@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const contatos = require('../../models/contatos');
-const dotenv = require('dotenv');
-dotenv.config();
+//const dotenv = require('dotenv');
+//dotenv.config();
 
 //configurar e conectar no banco de dados mongo
 mongoose.Promise = global.Promise;
